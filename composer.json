@@ -1,0 +1,19 @@
+{
+    "name": "gorgona/my-mvc-framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mr-sylaev",
+            "email": "mr.sylaev@mail.ru"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*",
+      "ext-json": "*",
+      "php": "7.4.*"
+    }
+}
